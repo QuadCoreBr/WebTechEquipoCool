@@ -52,7 +52,7 @@ body{margin: 0;}
 .menu-bar a:not(:first-child):hover{
   color: red;
 }
-#register-button{
+.menu-bar .register-button{
   float: left;
   display: block;
   text-align: center;
@@ -62,7 +62,7 @@ body{margin: 0;}
   padding: 1%;
   color: #FFF;
 }
-#register-button a:hover{
+.menu-bar .register-button a:hover{
   color: red;
 }
 
