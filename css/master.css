@@ -1,10 +1,58 @@
-@media only screen and (max-width :400px){
-    .menu-bar{
-        background-color: dimgrey;
-        width: 100%;
-        height: 8%;
-    }
+*{
+  box-sizing: border-box;
 }
-@media only screen and(max-width :400px){
-    .menu-bar.responsive {}
+.row::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+[class*="col-"]{
+  float: left;
+}
+body{margin: 0;}
+
+.menu-bar .logo{
+  font-family: "Lucida Sans", sans-serif;
+  display: block;
+  color: #FFF;
+ margin: 10% 2% 10% 20%;
+  text-align: right;
+  font-size: 100%;
+}
+.menu-bar{
+  background-color: #757575;
+  height: 10%;
+  overflow: visible;
+}
+.menu-bar .menu-bar-links{
+  text-align: right;
+  position: relative;
+  top: 50%;
+  right: 10%;
+  display: block;
+  color: #FFF;
+}
+.menu-bar .register-button{
+  position: relative;
+  top: 25%;
+  right: 9%;
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  width: 5%;
+  background-color: #11ABB0;
+  border-radius: 7%;
+  color: #FFF;
 }
