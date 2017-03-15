@@ -4,7 +4,7 @@
 .row::after{
   content: "";
   clear: both;
-  display: table;
+  display: inline-block;
 }
 .col-1{width: 8.33%;}
 .col-2{width: 16.66%;}
@@ -20,31 +20,34 @@
 .col-12{width: 100%;}
 [class*="col-"]{
   float: left;
+  //border: 1px solid red;
 }
 body{margin: 0;}
 
 .menu-bar .logo{
   font-family: "Lucida Sans", sans-serif;
-  display: block;
+  display: inline-block;
   color: #FFF;
- margin: 10% 2% 10% 20%;
-  text-align: right;
+  margin: 10% 2% 10% 20%;
+  float: right;
   font-size: 100%;
 }
 .menu-bar{
   background-color: #757575;
   height: 10%;
   overflow: visible;
+  display: inline-block;
 }
 .menu-bar .menu-bar-links{
   text-align: right;
   position: relative;
   top: 50%;
   right: 10%;
-  display: block;
+  display: inline-block;
   color: #FFF;
 }
 .menu-bar .register-button{
+  display: inline-block;
   position: relative;
   top: 25%;
   right: 9%;
@@ -55,4 +58,14 @@ body{margin: 0;}
   background-color: #11ABB0;
   border-radius: 7%;
   color: #FFF;
+}
+#slideIMG{
+  display: inline-block;
+  background-image: url(imagenes/slide.jpg);
+  height: 400px;
+  width: 100%;
+}
+.mainContainer{
+  position: relative;
+  top 100%;
 }
