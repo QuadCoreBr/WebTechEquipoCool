@@ -93,7 +93,6 @@ body{margin: 0;}
 .main_container{
 
 }
-
 #img_globe{
   margin: 0 auto 0 auto;
   display: block;
@@ -101,5 +100,15 @@ body{margin: 0;}
 .textoGeneral{
   color: rgb(147,149,155);
   font-size: 105%;
+  text-align: center;
+}
+.logoSocial{
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+}
+.row-half{
+  padding-top: 12.5%;
+  padding-bottom: 12.5%;
   text-align: center;
 }
