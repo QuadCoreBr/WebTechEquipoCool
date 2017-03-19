@@ -66,12 +66,13 @@ body {
 }
 
 .menu-bar .logo {
+    height: 100%;
     font-family: "Lucida Sans", sans-serif;
     display: block;
     color: #FFF;
-    margin: 10% 2% 10% 20%;
+    margin: 10% 2% 0% 20%;
     float: right;
-    font-size: 80%;
+    font-size: 150%;
 }
 
 .menu-bar {
@@ -91,19 +92,26 @@ body {
     font-size: 80%;
 }
 
+.menu-bar .menu-bar-links a {
+    margin-left: 2%;
+}
+
 .menu-bar .register-button {
-    display: inline-block;
+    display: block;
     position: relative;
-    top: 35%;
-    right: 9%;
+    top: 50%;
+    right: 10%;
     text-align: center;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    width: 6%;
-    background-color: #11ABB0;
-    border-radius: 7%;
     color: #FFF;
     font-size: 80%;
+}
+
+.menu-bar .register-button a {
+    padding: 6%;
+    position: relative;
+    right: 28%;
+    background-color: #11ABB0;
+    border-radius: 5%;
 }
 
 #slideIMG {
@@ -111,6 +119,7 @@ body {
     background-image: url('../imagenes/portada.jpg');
     width: 100%;
     height: 50%;
+    background-size: cover;
 }
 
 .textSlide {
@@ -136,24 +145,19 @@ body {
 
 .background1 {
     background-color: rgb(240, 240, 240);
-    height: 60%;
+    height: 50%;
 }
-
-.main_img_container {
-    //display: inline-flex;
-}
-
-.main_container {}
 
 #img_globe {
     margin: 0 auto 0 auto;
     display: block;
+    width: 15%;
+    height: 30%;
 }
 
 .textoGeneral {
-    margin-top: -1%;
     color: rgb(147, 149, 155);
-    font-size: 105%;
+    font-size: 100%;
     text-align: center;
 }
 
@@ -161,6 +165,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     display: inline-block;
+    width: 4%;
 }
 
 .row-half {
