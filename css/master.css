@@ -1,114 +1,194 @@
-*{
-  box-sizing: border-box;
+* {
+    box-sizing: border-box;
 }
-.row::after{
-  content: "";
-  clear: both;
-  display: inline-block;
-}
-.col-1{width: 8.33%;}
-.col-2{width: 16.66%;}
-.col-3{width: 25%;}
-.col-4{width: 33.33%;}
-.col-5{width: 41.66%;}
-.col-6{width: 50%;}
-.col-7{width: 58.33%;}
-.col-8{width: 66.66%;}
-.col-9{width: 75%;}
-.col-10{width: 83.33%;}
-.col-11{width: 91.66%;}
-.col-12{width: 100%;}
-[class*="col-"]{
-  float: left;
-  border: 1px solid red;
-}
-body{margin: 0;}
 
-.menu-bar .logo{
-  font-family: "Lucida Sans", sans-serif;
-  display: block;
-  color: #FFF;
-  margin: 10% 2% 10% 20%;
-  float: right;
-  font-size: 100%;
+.row::after {
+    content: "";
+    clear: both;
+    display: inline-block;
 }
-.menu-bar{
-  background-color:rgb(57,51,51);
-  height: 10%;
-  overflow: visible;
-  display: inline-block;
-}
-.menu-bar .menu-bar-links{
-  text-align: right;
-  position: relative;
-  top: 50%;
-  right: 10%;
-  display: inline-block;
-  color: #FFF;
-}
-.menu-bar .register-button{
-  display: inline-block;
-  position: relative;
-  top: 35%;
-  right: 9%;
-  text-align: center;
-  padding-top: 1%;
-  padding-bottom: 1%;
-  width: 6%;
-  background-color: #11ABB0;
-  border-radius: 7%;
-  color: #FFF;
-}
-#slideIMG{
-  display: inline-block;
-  background-image: url('../imagenes/portada.jpg');
-  width: 100%;
-  height: 50%;  
-}
-.textSlide{
-  color: #FFF;
-  font-size: 200%;
-  text-align: center;
-  margin-top:5%;
-  margin-bottom: -.5%
-}
-.textSlide2{
-  color: #FFF;
-  font-size: 200%;
-  text-align: center;
-  margin-top: -.5%;
-}
-#hrSlide{
-  margin-left: 30%;
-  margin-right: 30%;
-  border: 1px solid #FFF;
-}
-.background1{
-  background-color: rgb(240,240,240);
-  height: 50%;
-}
-.main_img_container{
-  //display: inline-flex;
-}
-.main_container{
 
+.col-1 {
+    width: 8.33%;
 }
-#img_globe{
-  margin: 0 auto 0 auto;
-  display: block;
+
+.col-2 {
+    width: 16.66%;
 }
-.textoGeneral{
-  color: rgb(147,149,155);
-  font-size: 105%;
-  text-align: center;
+
+.col-3 {
+    width: 25%;
 }
-.logoSocial{
-  margin-left: auto;
-  margin-right: auto;
-  display: inline-block;
+
+.col-4 {
+    width: 33.33%;
 }
-.row-half{
-  padding-top: 12.5%;
-  padding-bottom: 12.5%;
-  text-align: center;
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+[class*="col-"] {
+    float: left;
+    border: 1px solid red;
+}
+
+body {
+    margin: 0;
+}
+
+.menu-bar .logo {
+    font-family: "Lucida Sans", sans-serif;
+    display: block;
+    color: #FFF;
+    margin: 10% 2% 10% 20%;
+    float: right;
+    font-size: 80%;
+}
+
+.menu-bar {
+    background-color: rgb(57, 51, 51);
+    height: 10%;
+    overflow: visible;
+    display: inline-block;
+}
+
+.menu-bar .menu-bar-links {
+    text-align: right;
+    position: relative;
+    top: 50%;
+    right: 10%;
+    display: inline-block;
+    color: #FFF;
+    font-size: 80%;
+}
+
+.menu-bar .register-button {
+    display: inline-block;
+    position: relative;
+    top: 35%;
+    right: 9%;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 6%;
+    background-color: #11ABB0;
+    border-radius: 7%;
+    color: #FFF;
+    font-size: 80%;
+}
+
+#slideIMG {
+    display: inline-block;
+    background-image: url('../imagenes/portada.jpg');
+    width: 100%;
+    height: 50%;
+}
+
+.textSlide {
+    color: #FFF;
+    font-size: 200%;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: -.5%
+}
+
+.textSlide2 {
+    color: #FFF;
+    font-size: 200%;
+    text-align: center;
+    margin-top: -.5%;
+}
+
+#hrSlide {
+    margin-left: 30%;
+    margin-right: 30%;
+    border: 1px solid #FFF;
+}
+
+.background1 {
+    background-color: rgb(240, 240, 240);
+    height: 60%;
+}
+
+.main_img_container {
+    //display: inline-flex;
+}
+
+.main_container {}
+
+#img_globe {
+    margin: 0 auto 0 auto;
+    display: block;
+}
+
+.textoGeneral {
+    margin-top: -1%;
+    color: rgb(147, 149, 155);
+    font-size: 105%;
+    text-align: center;
+}
+
+.logoSocial {
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+}
+
+.row-half {
+    height: 50%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.gridText {
+    position: relative;
+    height: 50%;
+    padding: 0;
+    color: grey;
+    text-align: left;
+    display: inline-block;
+    line-height: 80%;
+}
+
+.gridText .Teacher-title {
+    color: mediumaquamarine;
+    font-size: 120%;
+}
+
+.gridText .section-title-comite {
+    position: relative;
+    top: -20%;
+    color: black;
+    font-size: 250%;
+    height: 100%;
+    line-height: 100%;
 }
