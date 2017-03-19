@@ -75,6 +75,10 @@ body {
     font-size: 150%;
 }
 
+.verde {
+    border: 1px solid green;
+}
+
 .menu-bar {
     background-color: rgb(57, 51, 51);
     height: 10%;
@@ -159,6 +163,7 @@ body {
     color: rgb(147, 149, 155);
     font-size: 100%;
     text-align: center;
+    height: 100%;
 }
 
 .logoSocial {
@@ -169,7 +174,7 @@ body {
 }
 
 .row-half {
-    height: 50%;
+    height: 100%;
     margin-top: 2%;
     margin-bottom: 2%;
 }
