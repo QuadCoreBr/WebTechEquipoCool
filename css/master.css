@@ -179,24 +179,27 @@ body {
     margin-bottom: 2%;
 }
 
-.gridText {
+.gridText div {
     position: relative;
     height: 50%;
-    padding: 0;
     color: grey;
     text-align: left;
     display: inline-block;
-    line-height: 80%;
+}
+
+.gridText div p {
+    line-height: 60%;
 }
 
 .gridText .Teacher-title {
     color: mediumaquamarine;
+    line-height: 100%;
     font-size: 120%;
 }
 
 .gridText .section-title-comite {
     position: relative;
-    top: -20%;
+    top: -15%;
     color: black;
     font-size: 250%;
     height: 100%;
