@@ -58,7 +58,7 @@
 
 [class*="col-"] {
     float: left;
-    border: 1px solid red;
+    min-height: 1px;
 }
 
 body {
@@ -188,6 +188,7 @@ body {
 }
 
 .gridText div p {
+    margin-right: 10%;
     line-height: 60%;
 }
 
