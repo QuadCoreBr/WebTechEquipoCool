@@ -70,7 +70,7 @@ body {
     font-family: "Lucida Sans", sans-serif;
     display: block;
     color: #FFF;
-    margin: 10% 2% 0% 20%;
+    margin: 7% 2% 0% 0%;
     float: right;
     font-size: 150%;
 }
@@ -174,7 +174,7 @@ body {
 }
 
 .row-half {
-    height: 100%;
+    height: 50%;
     margin-top: 2%;
     margin-bottom: 2%;
 }
@@ -198,6 +198,10 @@ body {
     font-size: 120%;
 }
 
+.sin-margen {
+    margin-bottom: 0px !important;
+}
+
 .gridText .section-title-comite {
     position: relative;
     top: -15%;
@@ -205,4 +209,117 @@ body {
     font-size: 250%;
     height: 100%;
     line-height: 100%;
+}
+
+.gridText2 div {
+    position: relative;
+    height: 20%;
+    color: black;
+    text-align: left;
+    display: inline-block;
+}
+
+.gridText2 div p {
+    margin-right: 10%;
+    line-height: 50%;
+}
+
+.gridText2 .section-title-gallery {
+    position: relative;
+    color: gray;
+    font-size: 115%;
+    height: 100%;
+    line-height: 100%;
+}
+
+.gridText2 .casa {
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    width: 180px;
+    height: 180px;
+}
+
+.galeria {
+    max-height: 310px !important;
+}
+
+.gridText2 .section-title-conf {
+    position: relative;
+    color: gray;
+    font-size: 115%;
+    height: 100%;
+    line-height: 50%;
+}
+
+.gridText2 .title-conf-up {
+    color: mediumaquamarine;
+    line-height: 30%;
+    font-size: 145%;
+    margin-left: 20%;
+    margin-top: -2.5%;
+}
+
+.gridText2 .title-conf {
+    color: mediumaquamarine;
+    line-height: 30%;
+    font-size: 145%;
+    margin-left: 20%;
+}
+
+.gridText2 .cont-conf-up {
+    color: black;
+    line-height: 30%;
+    font-size: 145%;
+    margin-left: 20%;
+    font-weight: 600;
+}
+
+.gridText2 .cont-conf {
+    color: black;
+    line-height: 30%;
+    font-size: 145%;
+    margin-left: 20%;
+    font-weight: 600;
+}
+
+.conf {
+    min-height: 60% !important;
+}
+
+.gridText-first {
+    // margin-top: -10%;
+}
+
+.gridText2 .section-title-becas {
+    position: relative;
+    color: gray;
+    font-size: 115%;
+    height: 100%;
+    line-height: 100%;
+}
+
+.gridText2 .cont-becas {
+    color: gray;
+    line-height: 100%;
+    font-size: 95%;
+    text-align: left;
+}
+
+.gridText2 .cont2-becas {
+    color: gray;
+    line-height: 100%;
+    font-size: 85%;
+    margin-left: 30%;
+}
+
+.becas {
+    max-height: 200px !important;
+}
+
+#hrSlide2 {
+    margin-left: 0%;
+    margin-right: 20%;
+    border: .01px dotted #f2eeed;
+    margin-top: 6%;
 }
