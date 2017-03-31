@@ -1,5 +1,5 @@
-body{
-    margin: 0 auto; 
+body {
+    margin: 0 auto;
     font-family: sans-serif;
 }
 
@@ -62,8 +62,6 @@ body{
     min-height: 1px;
 }
 
-
-
 .menu-bar .logo {
     height: 100%;
     font-family: "Lucida Sans", sans-serif;
@@ -99,7 +97,8 @@ body{
     margin-left: 2%;
 }
 
-.menu-bar .register-button {
+
+/*.menu-bar .register-button {
     display: block;
     position: relative;
     top: 50%;
@@ -108,8 +107,17 @@ body{
     color: #FFF;
     font-size: 80%;
 }
+*/
 
 .menu-bar .register-button a {
+    padding: 6%;
+    position: relative;
+    right: 28%;
+    background-color: #11ABB0;
+    border-radius: 5%;
+}
+
+#registerButton {
     padding: 6%;
     position: relative;
     right: 28%;
@@ -323,122 +331,159 @@ body{
     margin-top: 6%;
 }
 
-
-
 #section-sede {
-    background-color: rgb(85,74,73);
+    background-color: rgb(85, 74, 73);
     height: 515px;
-    color: rgb(196,197,194);
+    color: rgb(196, 197, 194);
 }
+
 figure {
     margin-left: 18px;
     margin-right: 18px;
 }
+
 figcaption p:first-child {
     font-size: x-small;
     font-weight: bold;
     line-height: 0.5;
 }
-figcaption p:nth-child(2n), 
+
+figcaption p:nth-child(2n),
 figcaption p:nth-child(3n) {
     font-size: 12px;
     line-height: 0.7;
 }
+
 #section-acceso {
     height: 265px;
-    color: rgb(85,74,73);
+    color: rgb(85, 74, 73);
 }
-.p-acceso:first-child, 
+
+.p-acceso:first-child,
 .p-campo {
     font-weight: bold;
     font-size: small;
 }
+
 .p-acceso {
     font-size: x-small;
     line-height: 1.7;
 }
+
 fieldset {
     border: none;
 }
+
 .p-campo {
     width: 32%;
     float: left;
 }
+
 input {
     width: 94%;
-    height: 35px;   
+    height: 35px;
     margin-top: 5px;
-    background-color: rgb(208,217,216);
+    background-color: rgb(208, 217, 216);
     border: none;
     border-radius: 2px;
     font-size: medium;
     color: gray;
 }
+
 input[type="submit"] {
-    background-color: rgb(19,171,172);
+    background-color: rgb(19, 171, 172);
     margin-top: 20px;
     color: white;
     cursor: pointer;
 }
+
 input[type="submit"]:hover {
-    background-color: rgb(19,1,72);
-    transition: all 1500ms ease-out 10ms ;/*property-duration-timing_function-delay*/
+    background-color: rgb(19, 1, 72);
+    transition: all 1500ms ease-out 10ms;
+    /*property-duration-timing_function-delay*/
 }
-input[type="email"]:hover,input[type="email"]:focus,
-input[type="password"]:hover,input[type="password"]:focus {
-    box-shadow: inset 0 0 5px rgb(19,171,172);
+
+input[type="button"] {
+    width: 50%;
+    background-color: rgb(19, 171, 172);
+    margin-top: 1.2em;
+    position: relative;
+    right: 6em;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="email"]:hover,
+input[type="email"]:focus,
+input[type="password"]:hover,
+input[type="password"]:focus {
+    box-shadow: inset 0 0 5px rgb(19, 171, 172);
     /*****Checar bordes*/
 }
+
+input[type="button"]:focus,
 input[type="email"]:focus,
 input[type="password"]:focus {
-    background: rgba(208,217,216,0.4);
+    background: rgba(208, 217, 216, 0.4);
     color: gray;
 }
-.p-ancla{
+
+input[type="button"]:hover {
+    background-color: rgb(19, 1, 72);
+    transition: all 1500ms ease-out 10ms;
+    /*property-duration-timing_function-delay*/
+}
+
+.p-ancla {
     clear: both;
     margin-left: 60%;
     font-size: small;
 }
-a:link, a:visited { 
-    color: rgb(19,171,172);
+
+a:link,
+a:visited {
+    color: rgb(19, 171, 172);
     text-decoration: none;
     cursor: auto;
 }
-a:link:active, a:visited:active { 
-    color: rgb(199,71,72); 
+
+a:link:active,
+a:visited:active {
+    color: rgb(199, 71, 72);
 }
+
 a:first-child:after {
-    content: "|"; 
+    content: "|";
     padding: 0 4px 0 7px;
-    color: rgb(85,74,73);
+    color: rgb(85, 74, 73);
 }
+
 a:hover {
-    color: rgb(19,1,72);
+    color: rgb(19, 1, 72);
 }
-footer{
-    background-color: rgb(208,217,216);
+
+footer {
+    background-color: rgb(208, 217, 216);
     height: 365px;
 }
+
 footer p:first-child {
     margin-top: 30px;
 }
-footer p{
+
+footer p {
     text-align: center;
     font-size: x-small;
     line-height: 1;
 }
-.footer-image {/*REVISAR*/
+
+.footer-image {
+    /*REVISAR*/
     margin-top: 40px;
     height: 79px;
-    background-image: url(http://www.cectijuana.ipn.mx/v2/images/logipn.png),
-                      url(../imagenes/escudoESCOM_350.gif),
-                      url(http://1.bp.blogspot.com/-Fg-9UgVNMyk/Vd5-e2b0BZI/AAAAAAAAAzk/lfFPQfkjluI/s1600/esime.gif),
-                      url(http://www.ommenlinea.org/wp-content/uploads/2016/08/Logo_sociedad.png),
-                      url(http://www.cioal.com/wp-content/uploads/logouam.gif),
-                      url(http://www.acatlan.unam.mx/imagenes/107.png);
+    background-image: url(http://www.cectijuana.ipn.mx/v2/images/logipn.png), url(../imagenes/escudoESCOM_350.gif), url(http://1.bp.blogspot.com/-Fg-9UgVNMyk/Vd5-e2b0BZI/AAAAAAAAAzk/lfFPQfkjluI/s1600/esime.gif), url(http://www.ommenlinea.org/wp-content/uploads/2016/08/Logo_sociedad.png), url(http://www.cioal.com/wp-content/uploads/logouam.gif), url(http://www.acatlan.unam.mx/imagenes/107.png);
     background-size: 3.5em, 7.8em, 5.5em, 5.5em, 6.7em, 4.2em;
     background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
-    background-position: 0, 11%, 34%, 52.8%, 75%, 92%; 
-    
+    background-position: 0, 11%, 34%, 52.8%, 75%, 92%;
     /*content: "Unidad Iztapalapa";*/
 }
