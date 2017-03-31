@@ -1,0 +1,399 @@
+body {
+	margin: 0 auto;	
+	font-family: sans-serif;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 23%;}
+.col-4 {width: 32.9%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 53%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+[class*="col-"] {
+	position: relative;
+	display: inline-block;
+}
+nav{
+	height: 4.4em; 
+	background-color: rgb(58,52,52);
+	color: white;	
+}
+span{
+	font-weight: bold;
+	font-size: 1.2em;
+}
+.container{
+	width: 73%;
+	position: relative;
+	display: inline-block;
+	height: 3.6em;
+}
+#menu {
+	position: relative;
+	float: right;
+	top: 0.6em;
+	width: 76%;
+	border-radius: 0.3em;
+	background-color: rgb(58,52,52);
+	list-style: none;
+}
+#menu > li {
+	float: left;
+	position: relative;
+}
+#menu > li:first-child {
+	border-left: 0.1em solid rgba(255,255,255,.25);
+	box-shadow: -0.1em 0 0 rgba(0,0,0,.1), 0.08em 0 0 rgba(255,255,255,.25);
+}
+#menu a {
+	display: block;
+	position: relative;
+	padding: 1.05em 0.7em 1.05em 0.7em;
+	text-decoration: none;
+	color: rgb(196,197,194);
+	font-weight: bold;
+	font-size: 0.7em;
+	transition: all .25s ease-out;
+}
+#menu > li:hover > a {
+	background: white;
+	color: rgb(19,171,172);
+	text-shadow: none;
+}
+.btn-registro{
+	width: 8.33%;
+	position: relative;
+	bottom: 0.7em;
+	display: inline-block;
+}
+#btn-registro{	
+	font-weight: bold;
+	font-size: 0.7em;
+	width: 100%;
+}
+header{
+	height: 20em;
+	background-image: url(../image/portada.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+#section-propo{
+	background-color: rgb(238,240,239);
+	height: 19em;
+	color: rgb(196,197,194);
+	border-bottom: 0.15em solid rgba(255,255,255,.8);
+	box-shadow: -0.15em 0 0 rgba(0,0,0,.7);
+}
+.text-image{
+	height: 7.5em;
+	background-image: url(../image/globoTexto.gif);
+	background-size: 7.8em;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+#section-propo p{
+	width: 90%;
+	position: relative;
+	left: 5%;
+	text-align: center;
+	line-height: 1.5em;
+	font-size: 0.7em;
+}
+.social-image{
+	width: 10%;
+	position: relative;
+	left: 45%;
+	height: 2em;
+	background-image: url(../image/facebook-logo.gif),
+					  url(../image/twitter-logo.gif);
+	background-size: 2em,2em;
+	background-repeat: no-repeat, no-repeat;
+	background-position: left, right;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: inline-block;
+}
+.verde {
+    border: 1px solid green;
+}
+.textSlide {
+    color: #FFF;
+    font-size: 200%;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: -.5%
+}
+
+.textSlide2 {
+    color: #FFF;
+    font-size: 200%;
+    text-align: center;
+    margin-top: -.5%;
+}
+#hrSlide {
+    margin-left: 30%;
+    margin-right: 30%;
+    border: 1px solid #FFF;
+}
+.background-gray {
+    background-color: rgb(240, 240, 240);
+    height: 50%;
+}
+.textoGeneral {
+    color: rgb(147, 149, 155);
+    font-size: 100%;
+    text-align: center;
+    height: 100%;
+}
+.row-half {
+    height: 50%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.gridText div {
+    position: relative;
+    height: 50%;
+    color: grey;
+    text-align: left;
+    display: inline-block;
+}
+.gridText div p {
+    margin-right: 10%;
+    line-height: 60%;
+}
+.gridText .Teacher-title {
+    color: mediumaquamarine;
+    line-height: 100%;
+    font-size: 120%;
+}
+.sin-margen {
+    margin-bottom: 0px !important;
+}
+.gridText .section-title-comite {
+    position: relative;
+    top: -15%;
+    color: black;
+    font-size: 250%;
+    height: 100%;
+    line-height: 100%;
+}
+.gridText2 div {
+    position: relative;
+    height: 20%;
+    color: black;
+    text-align: left;
+    display: inline-block;
+}
+.gridText2 div p {
+    margin-right: 10%;
+    line-height: 50%;
+}
+.gridText2 .section-title-gallery {
+    position: relative;
+    color: gray;
+    font-size: 115%;
+    height: 100%;
+    line-height: 100%;
+}
+.gridText2 .casa {
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    width: 180px;
+    height: 180px;
+}
+.galeria {
+    max-height: 310px !important;
+}
+.gridText2 .section-title-conf {
+    position: relative;
+    color: gray;
+    font-size: 115%;
+    height: 100%;
+    line-height: 50%;
+}
+.gridText2 .title-conf-up {
+    color: mediumaquamarine;
+    line-height: 30%;
+    font-size: 145%;
+    margin-left: 20%;
+    margin-top: -2.5%;
+}
+.gridText2 .title-conf {
+    color: mediumaquamarine;
+    line-height: 30%;
+    font-size: 145%;
+    margin-left: 20%;
+}
+.gridText2 .cont-conf-up {
+    color: black;
+    line-height: 30%;
+    font-size: 145%;
+    margin-left: 20%;
+    font-weight: 600;
+}
+.gridText2 .cont-conf {
+    color: black;
+    line-height: 30%;
+    font-size: 145%;
+    margin-left: 20%;
+    font-weight: 600;
+}
+.conf {
+    min-height: 60% !important;
+}
+.gridText-first {
+    margin-top: -10%;
+}
+.gridText2 .section-title-becas {
+    position: relative;
+    color: gray;
+    font-size: 115%;
+    height: 100%;
+    line-height: 100%;
+}
+.gridText2 .cont-becas {
+    color: gray;
+    line-height: 100%;
+    font-size: 95%;
+    text-align: left;
+}
+.gridText2 .cont2-becas {
+    color: gray;
+    line-height: 100%;
+    font-size: 85%;
+    margin-left: 30%;
+}
+.becas {
+    max-height: 200px !important;
+}
+#hrSlide2 {
+    margin-left: 0%;
+    margin-right: 20%;
+    border: .01px dotted #f2eeed;
+    margin-top: 6%;
+}
+
+#section-sede {
+	background-color: rgb(85,74,73);
+	height: 515px;
+	color: rgb(196,197,194);
+}
+figure {
+	margin-left: 18px;
+    margin-right: 18px;
+}
+figcaption p:first-child {
+	font-size: x-small;
+	font-weight: bold;
+	line-height: 0.5;
+}
+figcaption p:nth-child(2n), 
+figcaption p:nth-child(3n) {
+	font-size: 12px;
+	line-height: 0.7;
+}
+#section-acceso {
+	height: 265px;
+	color: rgb(85,74,73);
+}
+.p-acceso:first-child, 
+.p-campo {
+	font-weight: bold;
+	font-size: small;
+}
+.p-acceso {
+	font-size: x-small;
+	line-height: 1.7;
+}
+fieldset {
+    border: none;
+}
+.p-campo {
+	width: 32%;
+	float: left;
+}
+input {
+	width: 94%;
+	height: 35px;	
+	margin-top: 5px;
+	background-color: rgb(208,217,216);
+	border: none;
+	border-radius: 2px;
+	font-size: medium;
+	color: gray;
+}
+input[type="submit"],
+input[type="button"] {
+	background-color: rgb(19,171,172);
+	margin-top: 20px;
+	color: white;
+	cursor: pointer;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover {
+	background-color: rgb(19,1,72);
+	transition: all 1500ms ease-out 10ms ;/*property-duration-timing_function-delay*/
+}
+input[type="email"]:hover,input[type="email"]:focus,
+input[type="password"]:hover,input[type="password"]:focus {
+	box-shadow: inset 0 0 5px rgb(19,171,172);
+}
+input[type="email"]:focus,
+input[type="password"]:focus {
+	background: rgba(208,217,216,0.4);
+	color: gray;
+}
+.p-ancla{
+	clear: both;
+	margin-left: 60%;
+	font-size: small;
+}
+.p-ancla a:link, a:visited { 
+    color: rgb(19,171,172);
+    text-decoration: none;
+    cursor: auto;
+}
+.p-ancla a:link:active, a:visited:active { 
+    color: rgb(199,71,72); 
+}
+.p-ancla a:first-child:after {
+    content: "|"; 
+    padding: 0 4px 0 7px;
+    color: rgb(85,74,73);
+}
+.p-ancla a:hover {
+	color: rgb(19,1,72);
+}
+footer{
+	background-color: rgb(208,217,216);
+	height: 365px;
+}
+footer p:first-child {
+	margin-top: 30px;
+}
+footer p{
+	text-align: center;
+	font-size: x-small;
+	line-height: 1;
+}
+.footer-image {/*REVISAR*/
+	margin-top: 40px;
+	height: 79px;
+	background-image: url(http://www.cectijuana.ipn.mx/v2/images/logipn.png),
+					  url(../image/escudoESCOM_350.gif),
+					  url(http://1.bp.blogspot.com/-Fg-9UgVNMyk/Vd5-e2b0BZI/AAAAAAAAAzk/lfFPQfkjluI/s1600/esime.gif),
+					  url(http://www.ommenlinea.org/wp-content/uploads/2016/08/Logo_sociedad.png),
+					  url(http://www.cioal.com/wp-content/uploads/logouam.gif),
+					  url(http://www.acatlan.unam.mx/imagenes/107.png);
+	background-size: 3.5em, 7.8em, 5.5em, 5.5em, 6.7em, 4.2em;
+	background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+	background-position: 0, 11%, 34%, 52.8%, 75%, 92%; 
+}
